@@ -15,7 +15,7 @@ namespace AISDE2
         private int currentSpeed;
         private float currentTime, loadTime;
         private Event lastDownloading;
-        private int BufferMaxSize = 20;
+        private readonly int BufferMaxSize = 50;
 
         public List<float> times = new List<float>();
         public List<float> bufferlenght = new List<float>();
@@ -28,7 +28,8 @@ namespace AISDE2
 
         int randSpeed()
         {
-            return rand2.Next(0, 15) < 5 ? 5 : 15;
+            //return rand2.Next(0, 20) < 5 ? 5 : 20;
+            return rand2.Next(1, 20);
         }
 
         void Sort()
@@ -38,7 +39,8 @@ namespace AISDE2
 
         public void Startsimulation(int totalTime)
         {
-            currentSpeed = 5;
+            //currentSpeed = 5;
+            currentSpeed = randSpeed();
             float lasttime = 0;
             events.Add(new Event("load", 0));
 
