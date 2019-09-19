@@ -1,2 +1,3 @@
 # AISDE2
-Player simulator
+
+Player simulator for Algorithm and Data Structure classes at my university
