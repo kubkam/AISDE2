@@ -11,10 +11,10 @@ C:\Users\Kuba\Desktop\AIXDE LAB 2\AISDE2\AISDE2\obj\Debug\AISDE2.AISDE2.resource
 C:\Users\Kuba\Desktop\AISDE2\AISDE2\bin\Debug\AISDE2.exe.config
 C:\Users\Kuba\Desktop\AISDE2\AISDE2\bin\Debug\AISDE2.exe
 C:\Users\Kuba\Desktop\AISDE2\AISDE2\bin\Debug\AISDE2.pdb
-C:\Users\Kuba\Desktop\AISDE2\AISDE2\obj\Debug\AISDE2.csprojAssemblyReference.cache
 C:\Users\Kuba\Desktop\AISDE2\AISDE2\obj\Debug\AISDE2.AISDE2.resources
 C:\Users\Kuba\Desktop\AISDE2\AISDE2\obj\Debug\AISDE2.Properties.Resources.resources
 C:\Users\Kuba\Desktop\AISDE2\AISDE2\obj\Debug\AISDE2.csproj.GenerateResource.cache
 C:\Users\Kuba\Desktop\AISDE2\AISDE2\obj\Debug\AISDE2.csproj.CoreCompileInputs.cache
 C:\Users\Kuba\Desktop\AISDE2\AISDE2\obj\Debug\AISDE2.exe
 C:\Users\Kuba\Desktop\AISDE2\AISDE2\obj\Debug\AISDE2.pdb
+C:\Users\Kuba\Desktop\AISDE2\AISDE2\obj\Debug\AISDE2.csprojAssemblyReference.cache

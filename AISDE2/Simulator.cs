@@ -15,7 +15,7 @@ namespace AISDE2
         private int currentSpeed;
         private float currentTime, loadTime;
         private Event lastDownloading;
-        private readonly int BufferMaxSize = 50;
+        private readonly int BufferMaxSize = 20;
 
         public List<float> times = new List<float>();
         public List<float> bufferlenght = new List<float>();
@@ -28,8 +28,8 @@ namespace AISDE2
 
         int randSpeed()
         {
-            //return rand2.Next(0, 20) < 5 ? 5 : 20;
-            return rand2.Next(1, 20);
+            return rand2.Next(0, 10) < 4 ? 5 : 10;
+            //return rand2.Next(1, 20);
         }
 
         void Sort()
@@ -44,11 +44,13 @@ namespace AISDE2
             float lasttime = 0;
             events.Add(new Event("load", 0));
 
-            for (int i = 0; i < 8; i++)
+            
+            for (int i = 0; i < 20; i++)
             {
                 var tmpTime = randTime(totalTime);
                 events.Add(new Event("change speed", tmpTime));
             }
+            
 
             while (currentTime < totalTime)
             {
@@ -72,7 +74,7 @@ namespace AISDE2
                 {
                     player.BufferSize += lastEvent.Segment.LENGTH;
                     //events.Add(new Event("load", currentTime));
-                    if (player.BufferSize > BufferMaxSize)
+                    if (player.BufferSize > BufferMaxSize) //kiedy buffersize jest wiekszy niz dopuszczlany
                     {
                         loadTime = player.BufferSize - BufferMaxSize;
                         //currentTime += loadTime;

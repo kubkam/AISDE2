@@ -17,7 +17,7 @@ namespace AISDE2
             InitializeComponent();
 
             Simulator sim = new Simulator();
-            sim.Startsimulation(100);
+            sim.Startsimulation(1000); //ustawia czas trwania symulacji
 
             var times = sim.times;
             var speeds = sim.speeds;
